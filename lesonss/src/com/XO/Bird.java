@@ -13,7 +13,7 @@ public class Bird {
         System.out.println(bird.flyBack(40));
 
     }
-    
+
     public int flyBack(int speed) {
         return speed * 2;
     }

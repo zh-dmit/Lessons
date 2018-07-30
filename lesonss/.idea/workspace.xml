@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bird.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bird.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/XO/Bird.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#74#75#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
@@ -27,17 +27,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Figure.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesons2/Figure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <element signature="e#73#74#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/XO/Main.java" />
         <option value="$PROJECT_DIR$/src/com/XO/Bird.java" />
+        <option value="$PROJECT_DIR$/src/lesons2/Figure.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -68,6 +91,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="XO" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lesonss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lesonss" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesons2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -91,7 +120,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.XO.Bird" />
+      <option name="MAIN_CLASS_NAME" value="lesons2.Figure" />
       <module name="lesonss" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -169,12 +198,25 @@
     <entry file="file://$PROJECT_DIR$/src/com/XO/Bird.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#74#75#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesons2/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#73#74#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
