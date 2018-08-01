@@ -5,7 +5,7 @@ public class MultipleTable {
     public static void main (String [] args ){
         MultipleTable table = new  MultipleTable();
        // table.evenRange(4, 12);
-        table.show(5);
+        table.show(2);
 
     }
 
