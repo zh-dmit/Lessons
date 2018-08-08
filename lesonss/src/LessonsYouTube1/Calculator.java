@@ -1,36 +1,36 @@
 package LessonsYouTube1;
 
 public class Calculator {
-    private int result;
+    private double result;
+
 
 
     public static void main(String [] args){
-        Calculator calc = new Calculator();
-        int a,b;
-        a = 2;
-        b = 7;
-        calc.add(1,2,3,4,5,6);
 
 
     }
-
-    public void  add(int...arg) {
-        for (int param : arg) {
-            this.result += param;
-            System.out.println(this.result);
-
+        public double  add(double a, double b) {
+            this.result = a + b;
+            return result;
         }
-    }
-        public int getResult() {
-            return this.result;
+        public double  subtract(double a, double b) {
+            this.result = a + b;
+            return result;
         }
 
-        public void cleanResult(){
-            this.result = 0;
-
+        public double share(double a, double b){
+            this.result = a / b ;
+            return result ;
         }
 
-
+        public double multiply(double a, double b){
+            this.result = a * b ;
+            return result ;
+        }
+        public double sqr(double a, double b){
+            this.result = Math.pow(a, b) ;
+            return result ;
+        }
 
 
     }
