@@ -13,23 +13,23 @@ public class Interface {
                 exit = scan.nextInt();
                 if (exit == 6) System.exit(0);
                 System.out.println("Введите аргумент 1: ");
-                int a = scan.nextInt();
+                int arg1 = scan.nextInt();
                 System.out.println("Введите аргумент 2: ");
-                int b = scan.nextInt();
+                int arg2 = scan.nextInt();
                 if (exit == 1) {
-                    System.out.println("Результат деления " + calc.share(a, b));
+                    System.out.println("Результат деления " + calc.share(arg1, arg2));
                 }
                 if (exit == 2) {
-                    System.out.println("Результат умножения " + calc.multiply(a, b));
+                    System.out.println("Результат умножения " + calc.multiply(arg1, arg2));
                 }
                 if (exit == 3) {
-                    System.out.println("Результат сложения " + calc.add(a, b));
+                    System.out.println("Результат сложения " + calc.add(arg1, arg2));
                 }
                 if (exit == 4) {
-                    System.out.println("Результат вычитания " + calc.subtract(a, b));
+                    System.out.println("Результат вычитания " + calc.subtract(arg1, arg2));
                 }
                 if (exit == 5) {
-                    System.out.println("Результат возведения в степень " + calc.sqr(a, b));
+                    System.out.println("Результат возведения в степень " + calc.sqr(arg1, arg2));
                 }
 
             }

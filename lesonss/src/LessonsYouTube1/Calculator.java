@@ -1,35 +1,57 @@
 package LessonsYouTube1;
+/*
+ Класс реализует методы калькулятора с двумя значениями.
+  */
+
+
 
 public class Calculator {
-    private double result;
-
+    public double result = 0;
+/*
+* Оставил главный метод т.к. идея ругается, нежели если запускать без него.
+* */
 
 
     public static void main(String [] args){
-
-
     }
-        public double  add(double a, double b) {
-            this.result = a + b;
-            return result;
+
+        /*
+         * Сложение двух аргументов и возврат результата.
+         * */
+        public  double  add(double arg1, double arg2) {
+            this.result = arg1 + arg2;
+            return this.result;
         }
-        public double  subtract(double a, double b) {
-            this.result = a + b;
-            return result;
+        /*
+         * Вычитание двух аргументов и возврат результата.
+         * */
+        public double  subtract(double arg1, double arg2) {
+            this.result = arg1 - arg2;
+            return this.result;
+        }
+        /*
+         * Деление двух аргументов и возврат результата.
+         * */
+
+        public double share(double arg1, double arg2){
+            this.result = arg1 / arg2;
+            return this.result;
+        }
+        /*
+         * Умножение двух аргументов и возврат результата.
+         * */
+
+        public double multiply(double arg1, double arg2){
+            this.result = arg1 * arg2;
+            return this.result;
         }
 
-        public double share(double a, double b){
-            this.result = a / b ;
-            return result ;
-        }
-
-        public double multiply(double a, double b){
-            this.result = a * b ;
-            return result ;
-        }
-        public double sqr(double a, double b){
-            this.result = Math.pow(a, b) ;
-            return result ;
+        /*
+         * Возведение в степень двух аргументов и возврат результата.
+         * */
+        public double sqr(double arg1, double arg2){
+            this.result = Math.pow(arg1, arg2);
+            return this.result;
         }
 
 
