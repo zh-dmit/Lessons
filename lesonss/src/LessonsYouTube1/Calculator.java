@@ -7,14 +7,6 @@ package LessonsYouTube1;
 
 public class Calculator {
     public double result = 0;
-/*
-* Оставил главный метод т.к. идея ругается, нежели если запускать без него.
-* */
-
-
-    public static void main(String [] args){
-    }
-
         /*
          * Сложение двух аргументов и возврат результата.
          * */
