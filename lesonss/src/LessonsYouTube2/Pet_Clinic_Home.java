@@ -27,9 +27,7 @@ public class Pet_Clinic_Home {
                 clinic.AddClient(name, pet,numberClient);
             }
             if (menu == 5){
-                clinic.toString();
-
-
+                clinic.OutputOnDisplay();
 
             }
 

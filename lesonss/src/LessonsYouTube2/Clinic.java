@@ -11,21 +11,13 @@ public class Clinic {
     }
 
     public void AddClient(String name, String pet, int numberClient) {
+
         clients[numberClient] = new Clients(name, pet);
     }
 
+    public void OutputOnDisplay() {
 
-    @Override
-    public String toString() {
-        for (int index = 0; index < clients.length; index++) {
-             System.out.println(clients[index]);
-        }
-        return "";
+        System.out.println(Arrays.toString (clients));
     }
 
-        public void OutputOnDisplay () {
-
-            System.out.println(clients.toString());
-        }
-
-    }
+}

@@ -8,5 +8,10 @@ public class Clients {
         this.pet = pet;
     }
 
+    @Override
+    public String toString(){
+        return name+" "+pet;
+    }
+
 
 }
