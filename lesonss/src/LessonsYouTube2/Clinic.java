@@ -15,9 +15,31 @@ public class Clinic {
         clients[numberClient] = new Clients(name, pet);
     }
 
-    public void OutputOnDisplay() {
+    public void OutputOnDisplay(int size) {
+        for (int i = 0; i < size; i++) {
+            System.out.println(((i + 1) + "|" + clients[i]));
+        }
+    }
 
-        System.out.println(Arrays.toString (clients));
+    public void SearchClient(int positionClient) {
+        System.out.println((clients[positionClient])); //Спросить можно ли обратиться к одному из параметров объекта name или pet, что бы реализовать поиск ?
+    }
+
+    public void DeleteClient(int positionClient) {
+        clients[positionClient] = new Clients(null, null);
+    }
+
+    public void ChangeNameClient(int positionClient, String newName, String newPet) {
+        clients[positionClient] = new Clients(newName, newPet);
+    }
+    public void Test (int value, int size){
+        if ((value > size) || (value < 0)){
+            System.out.println("Значение за пределами списка.");
+            System.exit(0);
+        }
+
     }
 
 }
+
+

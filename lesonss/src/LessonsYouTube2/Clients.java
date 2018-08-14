@@ -9,8 +9,8 @@ public class Clients {
     }
 
     @Override
-    public String toString(){
-        return name+" "+pet;
+    public String toString() {
+        return "Клиент: "+ name + ", петомец - " + pet+".";
     }
 
 
