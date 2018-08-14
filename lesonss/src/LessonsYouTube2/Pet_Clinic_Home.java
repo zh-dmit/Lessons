@@ -20,13 +20,16 @@ public class Pet_Clinic_Home {
             if (menu == 1) {
                 System.out.println("Введите номер клиента в списке от 1 до " + size);
                 numberClient = scan.nextInt();
-                clinic.Test(numberClient,size);
-                numberClient -= 1;
-                System.out.println("Введите имя клиента: ");
-                name = scan.next();
-                System.out.println("Введите имя петомца: ");
-                pet = scan.next();
-                clinic.AddClient(name, pet, numberClient);
+                if (clinic.Test(numberClient, size)) {
+                    numberClient -= 1;
+                    System.out.println("Введите имя клиента: ");
+                    name = scan.next();
+                    System.out.println("Введите имя петомца: ");
+                    pet = scan.next();
+                    clinic.AddClient(name, pet, numberClient);
+                } else
+                    System.out.println("За пределами списка");
+
             }
             if (menu == 5) {
                 clinic.OutputOnDisplay(size);
@@ -34,28 +37,35 @@ public class Pet_Clinic_Home {
             if (menu == 2) {
                 System.out.println("Введите позицию клиента: ");
                 positionClient = scan.nextInt();
-                clinic.Test(positionClient,size);
-                positionClient -= 1;
-                clinic.SearchClient(positionClient);
+                if (clinic.Test(positionClient, size)) {
+                    positionClient -= 1;
+                    clinic.SearchClient(positionClient);
+                } else
+                    System.out.println("За пределами списка");
+
             }
             if (menu == 3) {
                 System.out.println("Введите позицию клиента на удаление: ");
                 positionClient = scan.nextInt();
-                clinic.Test(positionClient,size);
-                positionClient -= 1;
-                clinic.SearchClient(positionClient);
+                if (clinic.Test(positionClient, size)) {
+                    positionClient -= 1;
+                    clinic.DeleteClient(positionClient);
+                } else
+                    System.out.println("За пределами списка");
             }
             if (menu == 4) {
                 System.out.println("Введите позицию клиента для редактирования имени: ");
                 positionClient = scan.nextInt();
-                clinic.Test(positionClient,size);
-                positionClient -= 1;
-                clinic.SearchClient(positionClient);
-                System.out.println("Введите новое имя клиента: ");
-                newName = scan.next();
-                System.out.println("Введите новое имя петомца: ");
-                newPet = scan.next();
-                clinic.ChangeNameClient(positionClient, newName, newPet);
+                if (clinic.Test(positionClient, size)) {
+                    positionClient -= 1;
+                    clinic.SearchClient(positionClient);
+                    System.out.println("Введите новое имя клиента: ");
+                    newName = scan.next();
+                    System.out.println("Введите новое имя петомца: ");
+                    newPet = scan.next();
+                    clinic.ChangeNameClient(positionClient, newName, newPet);
+                } else
+                    System.out.println("За пределами спсика");
             }
 
 

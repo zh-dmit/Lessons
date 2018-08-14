@@ -32,14 +32,12 @@ public class Clinic {
     public void ChangeNameClient(int positionClient, String newName, String newPet) {
         clients[positionClient] = new Clients(newName, newPet);
     }
-    public void Test (int value, int size){
-        if ((value > size) || (value < 0)){
-            System.out.println("Значение за пределами списка.");
-            System.exit(0);
+    public boolean Test (int value, int size){
+      return value > 0 && value <= size ;
         }
 
     }
 
-}
+
 
 
